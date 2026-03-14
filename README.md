@@ -246,3 +246,168 @@ btn.style.top=Math.random()*80+"%"
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For You ❤️</title>
+
+<style>
+
+body{
+background:#ffe6f0;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+font-family:Arial;
+text-align:center;
+}
+
+.container{
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+h1{
+color:#ff4d6d;
+}
+
+button{
+padding:10px 20px;
+font-size:18px;
+margin:10px;
+border:none;
+border-radius:20px;
+cursor:pointer;
+}
+
+.yes{
+background:#ff4d6d;
+color:white;
+}
+
+.no{
+background:#ccc;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>❤️</h1>
+
+<h2>With you, every day feels like Valentine’s Day.</h2>
+
+<p>Will you be mine?</p>
+
+<button class="yes" onclick="yes()">Yes</button>
+<button class="no" onclick="moveNo(this)">No</button>
+
+</div>
+
+<script>
+
+function yes(){
+alert("Yay! ❤️");
+}
+
+function moveNo(btn){
+btn.style.position="absolute";
+btn.style.left=Math.random()*80+"%";
+btn.style.top=Math.random()*80+"%";
+}
+
+</script>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For You ❤️</title>
+
+<style>
+
+body{
+background:#ffe6f0;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+font-family:Arial;
+text-align:center;
+}
+
+.container{
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+h1{
+color:#ff4d6d;
+}
+
+button{
+padding:10px 20px;
+font-size:18px;
+margin:10px;
+border:none;
+border-radius:20px;
+cursor:pointer;
+}
+
+.yes{
+background:#ff4d6d;
+color:white;
+}
+
+.no{
+background:#ccc;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>❤️</h1>
+
+<h2>With you, every day feels like Valentine’s Day.</h2>
+
+<p>Will you be mine?</p>
+
+<button class="yes" onclick="yes()">Yes</button>
+<button class="no" onclick="moveNo(this)">No</button>
+
+</div>
+
+<script>
+
+function yes(){
+alert("Yay! ❤️");
+}
+
+function moveNo(btn){
+btn.style.position="absolute";
+btn.style.left=Math.random()*80+"%";
+btn.style.top=Math.random()*80+"%";
+}
+
+</script>
+
+</body>
+</html>
